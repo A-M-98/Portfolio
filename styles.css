@@ -138,3 +138,30 @@ img {
   line-height: 30px;
   letter-spacing: 2px;
 }
+
+.skills {
+  background: silver;
+  padding: 10px 0;
+}
+
+.skill-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+
+.image {
+  width: 67px;
+  height: 67px;
+  background-color: black;
+}
+
+.skills-heading {
+  text-align: center;
+  color: black;
+}
+
+.skills-text {
+  text-align: center;
+}
