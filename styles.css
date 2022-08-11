@@ -165,3 +165,26 @@ img {
 .skills-text {
   text-align: center;
 }
+
+.portfolio {
+  background: silver;
+  padding: 10px 0;
+}
+
+.portfolio-heading h1 {
+  color: black;
+}
+
+.projects-block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.project-image {
+  height: 200px;
+  width: 350px;
+  background-color: white;
+}
