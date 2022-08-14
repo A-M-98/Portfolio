@@ -105,7 +105,7 @@ h4 {
     padding: 100px 0px;
     background-color: #ffd3a3;
 }
-img {
+.my-image {
     width: 300px;
     height: auto;
 }
@@ -156,6 +156,11 @@ img {
     height: 67px;
     background-color: #ffdfbc;
     margin-bottom: 20px;
+}
+
+img {
+    width: 67px;
+    height: 67px;
 }
 
 .skills-heading {
