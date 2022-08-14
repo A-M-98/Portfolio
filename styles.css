@@ -7,9 +7,9 @@
 }
 
 .background {
-  height: 100vh;
+  height: 85vh;
   width: 100%;
-  background: #fbf4e5;
+  background: #005c53;
   background-size: cover;
   background-position: center;
 }
@@ -24,8 +24,11 @@ nav {
 }
 
 .name {
-  color: black;
+  color: #ffdfbc;
   font-weight: bold;
+}
+.name .span {
+  color: white;
 }
 
 nav ul li {
@@ -35,7 +38,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #794d2c;
+  color: #ffdfbc;
   text-decoration: none;
   text-transform: capitalize;
   font-weight: bold;
@@ -47,7 +50,7 @@ nav ul li a:hover {
 }
 
 .button {
-  color: antiquewhite;
+  color: #ffdfbc;
   text-decoration: none;
   border: 2px solid white;
   font-weight: bold;
@@ -68,7 +71,7 @@ nav ul li a:hover {
 }
 
 h1 {
-  color: white;
+  color: #ffdfbc;
   margin: 20px 0px 20px;
   font-size: 60px;
 }
@@ -80,13 +83,13 @@ h3 {
 }
 
 h4 {
-  color: antiquewhite;
+  color: white;
   letter-spacing: 2px;
   font-size: 20px;
 }
 
 .mywork {
-  color: antiquewhite;
+  color: #ffdfbc;
   text-decoration: none;
   border: 2px solid white;
   font-weight: bold;
@@ -98,11 +101,11 @@ h4 {
 .section {
   width: 100%;
   padding: 100px 0px;
-  background-color: silver;
+  background-color: #ffd3a3;
 }
 
 img {
-  width: 500px;
+  width: 300px;
   height: auto;
 }
 
@@ -118,21 +121,21 @@ img {
 }
 
 .body-text h5 {
-  color: white;
+  color: #462814;
   font-size: 75px;
   margin-bottom: 15px;
   text-transform: capitalize;
 }
 
 .body-text h6 {
-  color: white;
+  color: #462814;
   font-size: 25px;
   margin-bottom: 25px;
   text-transform: capitalize;
 }
 
 .body-text p {
-  color: purple;
+  color: #462814;
   font-size: 20px;
   margin-bottom: 20px;
   line-height: 30px;
@@ -140,7 +143,7 @@ img {
 }
 
 .skills {
-  background: silver;
+  background: #005c53;
   padding: 10px 0;
 }
 
@@ -154,25 +157,29 @@ img {
 .image {
   width: 67px;
   height: 67px;
-  background-color: black;
+  background-color: #ffdfbc;
+  margin-bottom: 20px;
 }
 
 .skills-heading {
   text-align: center;
-  color: black;
+  color: #ffdfbc;
+  margin-bottom: 15px;
 }
 
 .skills-text {
   text-align: center;
+  color: white;
+  margin-bottom: 20px;
 }
 
 .portfolio {
-  background: gray;
+  background: #ffd3a3;
   padding: 10px 0;
 }
 
 .portfolio-heading h1 {
-  color: #4e0075;
+  color: #462814;
   text-align: center;
   margin-top: 60px;
 }
@@ -188,7 +195,7 @@ img {
 .project-image {
   height: 200px;
   width: 350px;
-  background-color: white;
+  background-color: #005c53;
 }
 
 .project-title {
@@ -199,8 +206,20 @@ img {
   margin-bottom: 20px;
 }
 
+button {
+  background-color: #005c53;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: 2px solid white;
+}
+
 .contacts {
-  background: white;
+  background: #462814;
   padding: 10px 0;
 }
 
