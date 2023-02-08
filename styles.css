@@ -93,11 +93,12 @@
 .section__body {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 50px;
   margin: 0 auto;
 }
 .section__my-image {
-  width: 300px;
+  width: 400px;
   height: auto;
 }
 .section__text {
@@ -117,10 +118,10 @@
 }
 .section__about {
   color: #005c53;
-  font-size: 20px;
+  font-size: 15px;
   margin-bottom: 20px;
-  line-height: 30px;
-  letter-spacing: 2px;
+  line-height: 20px;
+  letter-spacing: 1px;
 }
 
 .skills {
@@ -138,16 +139,22 @@
   color: white;
   margin-bottom: 20px;
 }
-.skills__icons {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+.skills__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  margin: 10px;
   padding-top: 20px;
 }
-.skills__image {
+.skills__button {
+  width: auto;
+  height: 30px;
+  font-size: medium;
+  border: none;
+  border-radius: 15px;
   margin-bottom: 20px;
-  width: 67px;
-  height: 67px;
+  color: #005c53;
+  background: #ffd3a3;
 }
 
 .portfolio {
